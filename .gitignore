@@ -1,0 +1,25 @@
+# Per-device configuration must never be committed.
+last-ip.txt
+helper-settings.ini
+*.rdp
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
+*.log
+
+# Build output and local tools.
+dist/
+test-results/
+src/*.exe
+src/*.pdb
+src/*.exe.config
+tests/*.exe
+bin/
+obj/
+.vs/
+.vscode/
+Thumbs.db
+Desktop.ini
